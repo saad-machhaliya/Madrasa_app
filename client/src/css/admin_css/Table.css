@@ -1,0 +1,87 @@
+.body{
+    background-color: #f1f1f1;
+    width: auto;
+    height: 1500px;
+
+}
+/* Apply some basic styling to the table */
+.table {
+  width: auto;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  border: #fff;
+  
+}
+
+/* Style for table header */
+.table thead th {
+  font-weight: bold;
+  text-align: left;
+  padding: 15px 15px;
+  border-bottom: 2px solid #ccc;
+  background-color: #fff;
+}
+
+  
+
+/* Style for table data rows */
+.table tbody tr {
+  background-color: #fff; /* Set background color for rows */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  border-radius: 50px; /* Set border radius */
+  margin-bottom: 10px; /* Add margin below rows */
+  padding: 0; /* Remove default padding */
+  transition: background-color 0.3s; /* Add smooth transition */
+
+}
+
+/* Hover effect on rows */
+.table tbody tr:hover {
+  background-color: #f5f5f5; /* Change background color on hover */
+}
+
+/* Style for table data cells */
+.table tbody td {
+  padding: 10px 15px;
+  border: none;
+  word-break: keep-all;
+}
+.table tbody th {
+    padding-left: 15px;
+}
+/* Edit and Delete buttons in dropdown */
+.dropdown-menu li button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+/* Hover effect on dropdown items */
+.dropdown-menu li button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add margin and background color to the wrapper */
+.custom-table-wrapper {
+    margin: 20px; /* Adjust margin as needed */
+    background-color: #fff; /* Your desired background color */
+    border-radius: 20px; /* Add border radius to match your rows */
+    padding: 15px; /* Add padding for spacing inside the wrapper */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+
+  }
+
+  .table-container {
+    border-radius: 20px; /* Add border radius */
+    overflow: hidden; /* Clip any overflow content */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+    background-color: #FFFFFF;
+  }
+  
+  
